@@ -1,0 +1,110 @@
+body,
+aside {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+main {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    flex: 1;
+}
+
+#container {
+    padding-left: 50px;
+    background-color: white;
+    box-shadow: 1px 1px 4px #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px; 
+    margin-right: 600px;
+}
+
+.form-row div {
+    flex: 1;
+    margin-right: 100px; 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-row div:last-child {
+    margin-right: 0;
+}
+
+input:focus-visible {
+    outline: 1px solid blue;
+}
+
+input {
+    border-style: double;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header {
+    align-items: center;
+    padding: 50px;
+    padding-top: 150px;
+    margin-right: 200px;
+}
+
+a {
+    color: #994C00;
+    text-decoration: none;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 50px;
+    background-color: #994C00;
+    font-size: 20px;
+    color: white;
+}
+
+#loginInfo {
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 30px;
+}
+
+#CreateAndLogin {
+    padding: 50px;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(./externalFont/octagen.roman.ttf);
+}
+
+.logo {
+    display: flex;
+    font-family: myFont;
+    font-size: 100px;
+    position: absolute;
+    background-color: rgba(150, 150, 150, 0.5);
+    width: 826px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#logoImg {
+    width: 100px;
+    height: 100px;
+}
+
+label {
+    font-weight: bold;
+    color: #994C00;
+}
+
